@@ -1,7 +1,10 @@
 #include <stdio.h>
-
-int main() {
-    printf("Hello World!\n");
-    printf("This is a simple C program.\n");
-    return 0;
+int main()
+{
+    int number;
+    printf("enter an integer:");
+    scanf("%d",&number);
+    if(number<0) {
+        printf("you entered negative number");
+    }
 }
