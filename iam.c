@@ -7,5 +7,5 @@ int main()
             x=x+1;
         }
         printf("sum of first 20 numbers=%d",sum);
-        return 0;
+        
     }
